@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vueone</title>
+    <style>
+      .content{
+          height:500px;
+        background:#F00;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+    <script>  
+      var content = document.querySelector(".content");
+      content.addEventListener("touchstart", function(e){
+//      e.preventDefault();
+           content.style.background = "#0F0";
+      });
+      content.addEventListener("click", function(e){
+        e.preventDefault();
+           content.style.background = "#00F";
+      });
+    </script>
+  </body>
+</html>
