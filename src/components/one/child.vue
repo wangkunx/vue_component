@@ -49,6 +49,7 @@ export default{
     init(){
 //    I was changed in dev branch
       console.log(this.$el.getAttribute('data'))
+//    change in dev
     },
   },
   inheritAttrs: false,
