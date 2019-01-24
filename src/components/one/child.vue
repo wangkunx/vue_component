@@ -47,6 +47,7 @@ export default{
   },
   methods:{
     init(){
+//    I went back to master
       console.log(this.$el.getAttribute('data'))
     },
   },
