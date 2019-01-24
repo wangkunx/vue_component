@@ -47,9 +47,9 @@ export default{
   },
   methods:{
     init(){
-//    I was changed in dev branch
+//    I was changed in dev and master branch
       console.log(this.$el.getAttribute('data'))
-//    change in dev
+//    change in dev111
     },
   },
   inheritAttrs: false,
